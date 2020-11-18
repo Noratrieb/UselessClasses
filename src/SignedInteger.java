@@ -43,7 +43,6 @@ public class SignedInteger {
             this.n = Math.abs(this.n);
         }
     }
-
 }
 
 

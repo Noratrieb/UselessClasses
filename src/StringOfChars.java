@@ -68,7 +68,4 @@ public class StringOfChars {
 
         string = newString;
     }
-
-
-
 }

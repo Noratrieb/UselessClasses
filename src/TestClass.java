@@ -7,7 +7,7 @@ public class TestClass {
 
         DecimalNumber dd = new DecimalNumber(2.4);
         try{
-            DecimalNumber d = new DecimalNumber("schaffen");
+            DecimalNumber d = new DecimalNumber("hurensohn");
         } catch (ValueShouldProbablyActuallyBeANumberAndNotSomeWeirdGibberishDumbProgrammerException e) {
             e.printStackTrace();
         }

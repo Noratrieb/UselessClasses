@@ -45,5 +45,4 @@ public class DecimalNumber {
     public double getValue(){
         return Double.parseDouble(integerPart + "." + decimalPart);
     }
-
 }
