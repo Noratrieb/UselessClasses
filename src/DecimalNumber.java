@@ -23,7 +23,7 @@ public class DecimalNumber {
 
     /**
      * Create a new DecimalNumber directly from a String. No more stupid parsing, just stupid exceptions!
-     * @param s The string
+     * @param s the thing with funny chars I forgot the name it was something long and thin
      * @throws ValueShouldProbablyActuallyBeANumberAndNotSomeWeirdGibberishDumbProgrammerException yeah it does actually throw that good luck catching it
      */
     public DecimalNumber(String s) throws ValueShouldProbablyActuallyBeANumberAndNotSomeWeirdGibberishDumbProgrammerException {

@@ -1,3 +1,6 @@
+/**
+ * Sometimes I ask myself what is wrong with me but I always get a {@code ValueShouldProbablyActuallyBeANumberAndNotSomeWeirdGibberishDumbProgrammerException} instead of an answer
+ */
 public class ValueShouldProbablyActuallyBeANumberAndNotSomeWeirdGibberishDumbProgrammerException extends Exception{
     @Override
     public void printStackTrace() {
