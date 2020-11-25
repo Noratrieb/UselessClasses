@@ -11,5 +11,9 @@ public class TestClass {
         } catch (ValueShouldProbablyActuallyBeANumberAndNotSomeWeirdGibberishDumbProgrammerException e) {
             e.printStackTrace();
         }
+
+        Buddy bobby = new Buddy("bobby");
+        bobby.help();
+        bobby.joke();
     }
 }

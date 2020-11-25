@@ -33,7 +33,7 @@ public class DecimalNumber {
             System.out.println(ss[1]);
             integerPart = Long.parseLong(ss[0]);
             decimalPart = Long.parseLong(ss[1]);
-        } catch (NumberFormatException e){
+        } catch (NumberFormatException | ArrayIndexOutOfBoundsException e){
             throw new ValueShouldProbablyActuallyBeANumberAndNotSomeWeirdGibberishDumbProgrammerException();
         }
     }
