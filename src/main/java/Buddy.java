@@ -16,6 +16,7 @@ public class Buddy {
 
     public Buddy(String name) {
         this.name = name;
+        setSCREAM();
     }
 
     public void help(){

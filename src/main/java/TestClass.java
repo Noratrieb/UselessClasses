@@ -15,5 +15,10 @@ public class TestClass {
         Buddy bobby = new Buddy("bobby");
         bobby.help();
         bobby.joke();
+
+        GoodRandom random = new GoodRandom();
+        for (int i = 0; i < 10; i++) {
+            System.out.println(random.randomInt(20));
+        }
     }
 }
