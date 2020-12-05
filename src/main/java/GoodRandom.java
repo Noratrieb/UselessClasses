@@ -1,7 +1,6 @@
 import Requests.OpenTDB;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 /**
  * Generates random numbers based on OpenTDB trivia results. Should not be used too often. Should not be used actually.
