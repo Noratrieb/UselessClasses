@@ -8,7 +8,7 @@ import java.util.ArrayList;
  *
  * <p>
  *     Every trivia question has 4 answers, giving us a random number out of 4 for every question
- *     2 question can give an octal digit, which can be converted to an int
+ *     so now we just use the 4 as two binary digits and use them lol
  *     200IQ move, ik
  * </p>
  */
@@ -44,11 +44,13 @@ public class GoodRandom {
     private int getFourDigit(){
         trivia.getTrivia();
         ArrayList<String> answers = new ArrayList<>();
-        answers.add(trivia.getCorrectAnswer());
-        answers.add(trivia.getIncorrectAnswers()[0]);
-        answers.add(trivia.getIncorrectAnswers()[1]);
-        answers.add(trivia.getIncorrectAnswers()[2]);
+        String[] inc = trivia.getIncorrectAnswers();
+        String cor = trivia.getCorrectAnswer();
+        answers.add(cor);
+        answers.add(inc[0]);
+        answers.add(inc[1]);
+        answers.add(inc[2]);
         answers.sort(null);
-        return answers.indexOf(trivia.getCorrectAnswer());
+        return answers.indexOf(cor);
     }
 }
