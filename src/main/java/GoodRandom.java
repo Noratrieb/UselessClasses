@@ -38,7 +38,7 @@ public class GoodRandom {
             resultNumber += Math.pow(4, i) * getFourDigit();
         }
         int resultNormalized = resultNumber % range;
-        return resultNormalized += min;
+        return resultNormalized + min;
     }
 
     private int getFourDigit(){
