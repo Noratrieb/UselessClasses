@@ -50,11 +50,14 @@ public class GoodRandom {
         int range = max - min;
         //exponent of next biggest power of two
         int digits = (int) Math.ceil(Math.log(range)/Math.log(2));
+        //how many times we need a digit from 0-3
         int twoDigits = (int) Math.ceil(digits / 2d);
         int resultNumber = 0;
+        //add the random number from 0-3 but shift it 2 bits to the left everytime
         for (int i = 0; i < twoDigits; i++) {
             resultNumber += Math.pow(4, i) * getFourDigit();
         }
+        //normalize it, will lead to unbalanced results but das interessiert mich nicht
         int resultNormalized = resultNumber % range;
         return resultNormalized + min;
     }
