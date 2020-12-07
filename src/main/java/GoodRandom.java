@@ -16,18 +16,36 @@ public class GoodRandom {
 
     OpenTDB trivia = new OpenTDB();
 
+    /**
+     * Create a new {@code GoodRandom} with a seed
+     * @param seed The seed
+     */
     public GoodRandom(int seed) {
         trivia.setCategory(seed % 20 + 10);
     }
 
+    /**
+     * Create a new {@code GoodRandom}
+     */
     public GoodRandom() {
         this(0);
     }
 
+    /**
+     * Get a random integer from 0 to {@code max}. Integers are not distributed equally if {@code max} is not a power of 2.
+     * @param max The maximum number
+     * @return A random Integer from 0 to {@code max}
+     */
     public int randomInt(int max){
         return randomInt(0, max);
     }
 
+    /**
+     * Get a random integer from {@code min} to {@code max}. Integers are not distributed equally if {@code max} - {@code min} is not a power of 2.
+     * @param min The minimum number
+     * @param max The maximum number
+     * @return A random Integer from 0 to {@code max}
+     */
     public int randomInt(int min, int max){
         int range = max - min;
         //exponent of next biggest power of two
@@ -41,6 +59,11 @@ public class GoodRandom {
         return resultNormalized + min;
     }
 
+    /**
+     * Get a random number from 0 to 3 using OpenTDB. It pulls a random trivia question,
+     * sorts the answers alphabetically and returns the position of the correct answer
+     * @return A random number from 0 to 3
+     */
     private int getFourDigit(){
         trivia.getTrivia();
         ArrayList<String> answers = new ArrayList<>();
