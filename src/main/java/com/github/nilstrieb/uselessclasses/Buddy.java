@@ -1,3 +1,5 @@
+package com.github.nilstrieb.uselessclasses;
+
 import java.util.Scanner;
 
 /**

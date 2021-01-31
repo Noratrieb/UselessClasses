@@ -1,3 +1,5 @@
+package com.github.nilstrieb.uselessclasses;
+
 /**
  * While being a very useful class, SingedInteger has a very big problem. It can't store decimal numbers.
  * That's why this class exists.

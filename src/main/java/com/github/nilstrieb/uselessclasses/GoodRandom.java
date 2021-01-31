@@ -1,4 +1,4 @@
-//codereview comment: "nice imports"
+package com.github.nilstrieb.uselessclasses; //codereview comment: "nice imports"
 import Requests.OpenTDB;
 
 import java.util.ArrayList;

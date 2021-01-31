@@ -1,3 +1,5 @@
+package com.github.nilstrieb.uselessclasses;
+
 public class TestClass {
 
     public static void main(String[] args) {

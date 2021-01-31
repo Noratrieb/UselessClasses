@@ -1,3 +1,5 @@
+package com.github.nilstrieb.uselessclasses;
+
 /**
  * Chars are quite useful for most applications, but sometimes, you need a lot of them
  * Then variable naming can get confusing and char arrays are a bit too complicated to effectively work with

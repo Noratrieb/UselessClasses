@@ -1,3 +1,5 @@
+package com.github.nilstrieb.uselessclasses;
+
 /**
  * An unsigned byte.
  * Unlike other programming languages like C, C++ and many others, Java is too high-level to

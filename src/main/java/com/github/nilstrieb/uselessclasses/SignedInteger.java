@@ -1,3 +1,5 @@
+package com.github.nilstrieb.uselessclasses;
+
 /**
  * When you need a way to store negative numbers
  */
