@@ -15,7 +15,7 @@ public class u8 {
     /**
      * Create a new u8. You need to input a short because that is how Java works.
      * The value will be stored in a byte though.
-     * @param s
+     * @param s The short value
      */
     public u8(short s) {
         b = (byte) s;
