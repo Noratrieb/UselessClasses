@@ -1,3 +1,12 @@
+/**
+ * This class tries to create a huge array of longs (1e+22 in total)
+ * This obviously causes an {@code OutOfMemoryError}
+ *
+ * And while the docs of {@code Error} say that an Error shows "problems that a reasonable application
+ * should not try to catch", nothing is actually stopping us from doing it.
+ *
+ * Welcome to Hell.
+ */
 public class Hell {
 
     public static void main(String[] args) {
