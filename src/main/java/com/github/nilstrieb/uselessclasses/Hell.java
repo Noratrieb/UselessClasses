@@ -1,3 +1,5 @@
+package com.github.nilstrieb.uselessclasses;
+
 /**
  * This class tries to create a huge array of longs (1e+22 in total)
  * This obviously causes an {@code OutOfMemoryError}

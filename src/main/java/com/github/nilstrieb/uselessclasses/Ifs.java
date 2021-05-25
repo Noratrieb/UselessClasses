@@ -1,7 +1,5 @@
 package com.github.nilstrieb.uselessclasses;
 
-import java.util.function.Consumer;
-
 /**
  * This class adds a brand new syntax for if-statements!
  * You just need to statically import the methods
@@ -18,9 +16,6 @@ public class Ifs {
             onFalse.execute();
         }
     }
-
-
-
 
     interface Statements {
         void execute();
